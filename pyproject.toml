@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "codeart"
+version = "0.0.1"
+description = "code analyzer"
+authors = ["winglechen <winglechen@gmail.com>"]
+license = "MIT License"
+packages = [
+    {include = "codeart"},
+    {include = "bin/**/*.py"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pywolf = "^0.3.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
