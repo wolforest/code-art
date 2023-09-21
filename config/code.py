@@ -1,0 +1,10 @@
+
+class CodeStyle(object):
+    MAX_IMPORT_NUM = 5
+    MAX_CODE_LINES = 200
+    MAX_CLASS_LINES = 200
+
+    MAX_ATTRIBUTE_NUM = 5
+    MAX_PARAMETER_NUM = 4
+    MAX_PUBLIC_METHOD_NUM = 5
+    MAX_METHOD_NUM = 5
