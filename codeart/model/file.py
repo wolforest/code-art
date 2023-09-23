@@ -1,3 +1,4 @@
+from collections import deque
 
 class ClassCounter(object):
     className: str
@@ -23,3 +24,9 @@ class FileCounter(object):
     maxClassLines: int = 0
     maxMethodLines: int = 0
 
+
+
+class FileContext(object):
+    
+    def __init__(self) -> None:
+        self.blockStack = deque()
