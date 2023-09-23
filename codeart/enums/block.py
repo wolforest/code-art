@@ -4,8 +4,12 @@ from enum import Enum
 class BlockType(Enum):
     CLASS = 10
 
-    METHOD = 20
+    ATTRIBUTE = 20
 
-    PARENTHESIS = 30
+    METHOD = 30
 
-    BRACE = 40
+    
+
+    PARENTHESIS = 100
+    BRACE = 110
+    LOOP = 120

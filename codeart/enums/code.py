@@ -1,8 +1,20 @@
 from enum import Enum
 
 class CodeType(Enum):
-    CLASS_START = 10
-    CLASS_END = 20
+    PACAGE = ';'
+    IMPORT = ';'
+
+    CLASS_DECLARATION = '{'
+    CLASS = '}'
+
+    ATTRIBUTE_DECLARATION = ';'
+
+    METHOD_DECLARATION = '{'
+    METHOD = '}'
+
+    COMMENT_LINE = '//'
+    COMMENT_START = '/*'
+    COMMENT_END = '*/'
 
 
 

@@ -1,6 +1,6 @@
 
 from codeart.model.file import FileCounter
-from codeart.lang.factory import LangFactory
+from codeart.parser.factory import LangFactory
 from pywolf.utils import pathutils, fileutils
 
 class FileParser(object):

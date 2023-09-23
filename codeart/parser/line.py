@@ -5,4 +5,3 @@ class LineResult(object):
 class LineParser(object):
     def parse_line(line: str) -> LineResult:
         pass
-

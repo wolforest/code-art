@@ -1,5 +1,5 @@
 
-from codeart.lang.parser import LineParser
+from codeart.parser.parser import LineParser
 from codeart.lang.java import JavaParser
 
 class LangFactory(object):
